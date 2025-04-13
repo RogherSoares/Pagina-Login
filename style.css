@@ -19,7 +19,7 @@ body {
     background: rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .formBox {
     position: absolute;
@@ -125,13 +125,15 @@ form {
     position: absolute;
     width: 50%;
     height: 100%;
-    /*background: rgb(0, 122, 255);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     z-index: 2;
+}
+.togglePanel.toggleRight {
+    right: -50%;
 }
 .togglePanel h2 {
     font-size: 2.5rem;
