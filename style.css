@@ -30,6 +30,7 @@ body {
     align-items: center;
     color: rgb(255, 255, 255);
     text-align: center;
+    padding: 40px;
 }
 form {
     width: 100%;
@@ -85,4 +86,18 @@ form {
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
     font-weight: 600;
+}
+.container p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+.iconeSocial a {
+    display: inline;
+    padding: 10px;
+    border: 2px solid rgb(244, 244, 250);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 8px;
 }
