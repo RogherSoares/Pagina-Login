@@ -10,5 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(245, 245, 250));
+    background: linear-gradient(90deg, rgb(245, 245, 250), rgb(234, 234, 240));
+}
+.container {
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
