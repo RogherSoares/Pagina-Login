@@ -45,7 +45,7 @@ form {
 }
 .inputBox input {
     width: 100%;
-    padding: 13px;
+    padding: 13px 50px 13px 20px;
     background: rgb(245, 245, 250);
     border-radius: 8px;
     border: none;
@@ -53,4 +53,16 @@ form {
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
     font-weight: 500;
+}
+.inputBox input::placeholder {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+.inputBox i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
 }
